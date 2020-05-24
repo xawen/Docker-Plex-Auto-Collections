@@ -28,7 +28,8 @@ Then, open a shell into it:
 $ docker exec -it <contaner ID> bash
 ```
 
-Then execute the cron script manually:
+Then execute the script manually:
 ```bash
-$ /etc/periodic/daily/plex-auto-collections
+$ cd /opt/plex-auto-collections
+$ python3 ./plex-auto-collections.py --update --noserver
 ```

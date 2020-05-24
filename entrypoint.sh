@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #Grab the script files and setup the environment
-if [ ! -f "/opt/plex-auto-collections/plex_auto_collections.py" ]; then
-	mkdir /opt/plex-auto-collections
-	git clone https://github.com/vladimir-tutin/Plex-Auto-Collections.git /opt/plex-auto-collections
-	pip install -r /opt/plex-auto-collections/requirements.txt
-fi
+# if [ ! -f "/opt/plex-auto-collections/plex_auto_collections.py" ]; then
+#	mkdir /opt/plex-auto-collections
+#	git clone https://github.com/vladimir-tutin/Plex-Auto-Collections.git /opt/plex-auto-collections
+#	pip3 install -r /opt/plex-auto-collections/requirements.txt
+#fi
 
 #Copy fresh config file to config imported path if it does't exist
 if [ ! -f "/config/config.yml" ]; then
