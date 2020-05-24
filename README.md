@@ -1,6 +1,6 @@
-# Docker-ns-letsencrypt
+# Docker-Plex-Auto-Collections
 
-A Docker image to run the [Plex-Auto-Collections script](https://github.com/vladimir-tutin/Plex-Auto-Collections).
+A Docker image to run the [Plex-Auto-Collections script](https://github.com/vladimir-tutin/Plex-Auto-Collections).  This is intended to run the script on a schedule to create Collections from dynamic lists like an [IMDB Most Popular Search] (https://www.imdb.com/search/title/?title_type=feature&moviemeter=1,300).  Since the image server isn't needed for that, the script is set to run with the --noserver option.
 
 ## Discussion
 TBD
